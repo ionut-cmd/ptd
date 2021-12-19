@@ -1,11 +1,17 @@
-%nav.navbar.navbar-expand-lg.navbar-light.bg-primary
+%nav.navbar.navbar-expand-lg.navbar-dark.custom_nav
   .container
-    %a.navbar-brand{:href => "#"} Navbar
+    %a.navbar-brand{:href => "#"}
+    %i.fas.fa-truck-moving.fa-3x
     %button.navbar-toggler{"aria-controls" => "navbarNavAltMarkup", "aria-expanded" => "false", "aria-label" => "Toggle navigation", "data-bs-target" => "#navbarNavAltMarkup", "data-bs-toggle" => "collapse", :type => "button"}
       %span.navbar-toggler-icon
     #navbarNavAltMarkup.collapse.navbar-collapse.justify-content-end
       .navbar-nav
-        %a.nav-link.active{"aria-current" => "page", :href => "#"} Home
-        %a.nav-link{:href => "#"} Features
-        %a.nav-link{:href => "#"} Pricing
-        %a.nav-link.disabled Disabled
+        %a.nav-link.active{"aria-current" => "page", :href => "/"} Home
+        %a.nav-link{:href => "#"} About Us
+        %a.nav-link{:href => "#"} Clients Base
+        %a.nav-link{:href => "#"} Services
+        %a.nav-link{:href => "#"} Contact
+      %button.rounded-pill.btn-rounded{:type => "button"} 
+        +447590520188
+        %span
+          %i.fas.fa-phone-alt
