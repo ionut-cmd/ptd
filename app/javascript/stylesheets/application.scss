@@ -1,9 +1,10 @@
 body {
-  background: linear-gradient(
-    to right,
-    rgba(#7b68ee, 0.95),
-    rgba(#7f74b6, 0.95)
-  );
+  background: #ffffff;
+  // background: linear-gradient(
+  //   to right,
+  //   rgba(#7b68ee, 0.95),
+  //   rgba(#7f74b6, 0.95)
+  // );
 }
 //NAV BAR
 .custom_nav {
@@ -41,6 +42,7 @@ a:hover {
   );
   color: white;
 }
+
 span {
   position: absolute;
   background-color: #7f74b6;
@@ -57,11 +59,39 @@ span:hover {
 }
 
 i {
-  color: white;
+  color: #83d0cb;
   font-size: 1rem;
   line-height: 2.5rem;
   padding-top: 0.7rem;
 }
-nav {
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+
+.display-2 {
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+  display: inline-block;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  font-size: 1.5rem;
+  display: block;
+  font-family: "Poppins", sans-serif;
+  margin-top: 1.2rem;
+  text-transform: none;
+}
+
+.intro-section {
+  background: linear-gradient(
+    to right,
+    rgba(#7b68ee, 0.95),
+    rgba(#7f74b6, 0.95)
+  );
+  padding: 10rem 0 0 0;
+  width: 100%;
+  height: 100%;
+}
+
+img {
+  padding-left: 20px;
 }
