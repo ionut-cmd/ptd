@@ -1,5 +1,5 @@
 %section.intro-section
-  .container.container-fluid
+  .container
     %h1= t('.title')
     %p= t('.contact_us')
     %div.row
@@ -21,7 +21,12 @@
 
 
           %br
-          = submit_tag t('.submit'), class: "btn btn-light active"
+          = submit_tag t('.submit'), class: "btn rounded-pill btn-rounded"
         %br
       %div.col-sm-6
-        %iframe{:allowfullscreen => "", :height => "400", :loading => "lazy", :src => "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39129.23176788254!2d-2.245358407860631!3d52.19656145233091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870505800bbccd5%3A0xab9aa4f4d0da911c!2sWorcester!5e0!3m2!1sen!2suk!4v1639930182182!5m2!1sen!2suk", :style => "border:0;"}
+        %i.fas.fa-shipping-fast.fa-10x.contact_i
+%svg{:viewbox => "0 0 1440 120", :xmlns => "http://www.w3.org/2000/svg"}
+  %path{:d => "M0,288L34.3,272C68.6,256,137,224,206,208C274.3,192,343,192,411,192C480,192,549,192,617,208C685.7,
+            224,754,256,823,256C891.4,256,960,224,1029,218.7C1097.1,213,1166,235,1234,240C1302.9,245,1371,235,1406,229.3L1440,
+            224L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,
+            0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z", :fill => "#ffffff", "fill-opacity" => "1"}

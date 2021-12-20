@@ -10,8 +10,8 @@ body {
 .custom_nav {
   background: linear-gradient(
     to right,
-    rgba(#7b68ee, 0.95),
-    rgba(#7f74b6, 0.95)
+    rgba(#495057, 0.95),
+    rgba(#6c757d, 0.95)
   );
 }
 li {
@@ -37,15 +37,15 @@ a:hover {
 .btn-rounded:hover {
   background: linear-gradient(
     to right,
-    rgba(#7b68ee, 0.95),
-    rgba(#7f74b6, 0.95)
+    rgba(#495057, 0.95),
+    rgba(#6c757d, 0.95)
   );
   color: white;
 }
 
-span {
+.custom-span {
   position: absolute;
-  background-color: #7f74b6;
+  background-color: #6c757d;
   width: 2.5rem;
   height: 2.5rem;
   top: 50%;
@@ -54,12 +54,12 @@ span {
   border-radius: 50%;
 }
 
-span:hover {
+.custom-span:hover {
   background-color: rgba(black, 0.6);
 }
 
 i {
-  color: #83d0cb;
+  color: #343a40;
   font-size: 1rem;
   line-height: 2.5rem;
   padding-top: 0.7rem;
@@ -84,9 +84,20 @@ p {
 .intro-section {
   background: linear-gradient(
     to right,
-    rgba(#7b68ee, 0.95),
-    rgba(#7f74b6, 0.95)
+    rgba(#495057, 0.95),
+    rgba(#6c757d, 0.95)
   );
+  padding: 10rem 0 0 0;
+  width: 100%;
+  height: 100%;
+}
+
+.second-section {
+  // background: linear-gradient(
+  //   to right,
+  //   rgba(#495057, 0.95),
+  //   rgba(#6c757d, 0.95)
+  // );
   padding: 10rem 0 0 0;
   width: 100%;
   height: 100%;
@@ -108,4 +119,25 @@ iframe {
 
 iframe:hover {
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+}
+
+.contact_i {
+  color: #343a40;
+}
+
+// CARDS
+
+.gap {
+  grid-column-gap: 16px;
+}
+
+.card {
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.card:hover {
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+}
+
+.dsv-i {
+  margin-top: 20px;
 }
