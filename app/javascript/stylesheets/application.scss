@@ -21,10 +21,11 @@ li {
 a {
   color: #f4f4fe !important;
   text-transform: capitalize;
+  text-decoration: none;
   font-weight: 400;
 }
 a:hover {
-  color: #a3d5f1 !important;
+  color: rgb(31, 28, 28) !important;
 }
 .btn-rounded {
   background-color: white;
@@ -63,6 +64,10 @@ i {
   font-size: 1rem;
   line-height: 2.5rem;
   padding-top: 0.7rem;
+}
+
+i:hover {
+  color: #e85d04;
 }
 
 .display-2 {
@@ -131,17 +136,15 @@ iframe:hover {
   grid-column-gap: 16px;
 }
 
-.card {
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-}
-.card:hover {
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+.card_din:hover {
+  box-shadow: 2px 2px 2px 2px rgba(0.4, 0.4, 0.4, 0.4);
 }
 
-.dsv-i {
-  margin-top: 20px;
+.cust_img {
+  margin-top: 30px;
+  margin-left: 20px;
 }
 
-a {
-  text-decoration: none;
+h5 {
+  font-weight: 300;
 }
