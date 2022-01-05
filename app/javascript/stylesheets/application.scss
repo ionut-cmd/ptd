@@ -149,11 +149,6 @@ h5 {
   font-weight: 300;
 }
 
-test_1 {
-  background: black;
-  background-color: #343a40;
-}
-
 // Home bottom section
 .home_b_section {
   background-color: #7d8597;
@@ -173,4 +168,13 @@ test_1 {
 
 .home_b_container {
   padding-bottom: 50px;
+}
+
+// SERVICES
+
+.services_section_top {
+  background-color: #7d8597;
+  padding: 10rem 0 0 0;
+  width: 100%;
+  height: 100%;
 }

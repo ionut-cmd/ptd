@@ -1,19 +1,18 @@
 %nav.navbar.navbar-expand-lg.navbar-dark.custom_nav.shadow.fixed-top
   .container
-    %a.navbar-brand{:href => "#"}
-    -# %i.fas.fa-truck-moving.fa-3x
-    %img.img-fluid{:src => "/assets/ptd_logo.png", :height => "150", :width => "150"}
+    %a.navbar-brand{:href => "/"}
+      %img.img-fluid{:src => "/assets/logo_ptd_edited.png", :height => "150", :width => "150"}
     %button.navbar-toggler{"aria-controls" => "navbarNavAltMarkup", "aria-expanded" => "false", "aria-label" => "Toggle navigation", "data-bs-target" => "#navbarNavAltMarkup", "data-bs-toggle" => "collapse", :type => "button"}
       %span.navbar-toggler-icon
     #navbarNavAltMarkup.collapse.navbar-collapse.justify-content-end
       .navbar-nav
         %a.nav-link.active{"aria-current" => "page", :href => "/"} Home
-        %a.nav-link{:href => "#"} Services
+        %a.nav-link{:href => "/services"} Services
         %a.nav-link{:href => "#"} Clients Base
         %a.nav-link{:href => "#"} About Us
         %a.nav-link{:href => "/contact"} Contact
-      %button.rounded-pill.btn-rounded{:type => "button"} 
-        +0011223344
+      %button.rounded-pill.btn-rounded{:type => "button", :href => "tel:004407703448880"} 
+        07703448880
         %span.custom-span
           %i.fas.fa-phone-alt.i_c
           

@@ -1,0 +1,31 @@
+%section.services_section_top
+#carouselExampleIndicators.carousel.slide{"data-bs-ride" => "carousel"}
+  .carousel-indicators
+    %button.active{"aria-current" => "true", "aria-label" => "Slide 1", "data-bs-slide-to" => "0", "data-bs-target" => "#carouselExampleIndicators", :type => "button"}
+    %button{"aria-label" => "Slide 2", "data-bs-slide-to" => "1", "data-bs-target" => "#carouselExampleIndicators", :type => "button"}
+    %button{"aria-label" => "Slide 3", "data-bs-slide-to" => "2", "data-bs-target" => "#carouselExampleIndicators", :type => "button"}
+  .carousel-inner
+    .carousel-item.active
+      %img.d-block.w-100{:alt => "...", :src => "assets/tir_1.jpeg"}/
+      .carousel-caption.d-none.d-md-block
+        %h5 First slide label
+        %p Some representative placeholder content for the first slide.
+    .carousel-item
+      %img.d-block.w-100{:alt => "...", :src => "assets/tir_2.jpeg"}/
+      .carousel-caption.d-none.d-md-block
+        %h5 First slide label
+        %p Some representative placeholder content for the first slide.
+    .carousel-item
+      %img.d-block.w-100{:alt => "...", :src => "assets/tir_3.jpeg"}/
+      .carousel-caption.d-none.d-md-block
+        %h5 First slide label
+        %p Some representative placeholder content for the first slide.
+  %button.carousel-control-prev{"data-bs-slide" => "prev", "data-bs-target" => "#carouselExampleIndicators", :type => "button"}
+    %span.carousel-control-prev-icon{"aria-hidden" => "true"}
+    %span.visually-hidden Previous
+  %button.carousel-control-next{"data-bs-slide" => "next", "data-bs-target" => "#carouselExampleIndicators", :type => "button"}
+    %span.carousel-control-next-icon{"aria-hidden" => "true"}
+    %span.visually-hidden Next
+
+%svg{:viewbox => "0 0 1440 320", :xmlns => "http://www.w3.org/2000/svg"}
+  %path{:d => "M0,224L1440,32L1440,0L0,0Z", :fill => "#7d8597", "fill-opacity" => "1"}

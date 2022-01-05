@@ -26,7 +26,7 @@
     = csp_meta_tag
 
   %body
-
+  
     - flash.each do |key, value|
       = content_tag :div, content_tag(:p, value), id: "#{key}" unless value.blank?
     
