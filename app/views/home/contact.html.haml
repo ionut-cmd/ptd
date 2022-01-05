@@ -1,7 +1,7 @@
 %section.intro-section
   .container
-    %h1= t('.title')
-    %p= t('.contact_us')
+    %h1.contact_font= t('.title')
+    %p.contact_font= t('.contact_us')
     %div.row
       %div.col-sm-6
         = form_tag request_contact_path, class: "form-floating.mb3", method: 'post' do
@@ -16,6 +16,7 @@
           = telephone_field_tag :telephone, '', title: t('.enter_telephone'), class: "form-control", style: "width: auto", placeholder: "+44"
 
           = label_tag :message, t('.message')
+         
           = text_field_tag :message, '', title: t('.enter_message'), class: "form-control",style: "height: 100px; width: 200px", :placeholder => "Leave a comment here"
 
 
@@ -24,7 +25,7 @@
           = submit_tag t('.submit'), class: "btn rounded-pill btn-rounded"
         %br
       %div.col-sm-6
-        %i.fas.fa-shipping-fast.fa-10x.contact_i
+        %iframe{:allowfullscreen => "", :height => "300", :loading => "lazy", :src => "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d78258.58349738395!2d-2.280292865097119!3d52.19649331737628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870505800bbccd5%3A0xab9aa4f4d0da911c!2sWorcester!5e0!3m2!1sen!2suk!4v1641403044424!5m2!1sen!2suk", :style => "border:0;", :width => "auto"}
 %svg{:viewbox => "0 0 1440 120", :xmlns => "http://www.w3.org/2000/svg"}
   %path{:d => "M0,288L34.3,272C68.6,256,137,224,206,208C274.3,192,343,192,411,192C480,192,549,192,617,208C685.7,
             224,754,256,823,256C891.4,256,960,224,1029,218.7C1097.1,213,1166,235,1234,240C1302.9,245,1371,235,1406,229.3L1440,
