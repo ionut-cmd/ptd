@@ -34,13 +34,27 @@ a {
 a:hover {
   color: rgb(31, 28, 28) !important;
 }
+
+.a-head:hover {
+  color: rgb(235, 119, 12) !important;
+}
+
+.btn-head {
+  background-color: #495057;
+  position: relative;
+  padding: 0.5375rem 2.374rem 0.5379rem 0.7rem;
+  font-weight: 600;
+  margin: 0;
+  // border: 0.1rem solid rgba(#f4f4fe, 0.6);
+}
+
 .btn-rounded {
   background-color: white;
   position: relative;
   padding: 0.9375rem 4.374rem 0.9379rem 1.2rem;
   font-weight: 600;
   margin: 0;
-  border: 0.1rem solid rgba(#f4f4fe, 0.6);
+  // border: 0.1rem solid rgba(#f4f4fe, 0.6);
 }
 .btn-rounded:hover {
   background: linear-gradient(

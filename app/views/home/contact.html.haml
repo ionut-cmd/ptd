@@ -5,17 +5,21 @@
     %div.row
       %div.col-sm-6
         = form_tag request_contact_path, class: "form-floating.mb3", method: 'post' do
-          = label_tag :name, t('.name')
+          -# = label_tag :name, t('.name')
+          %br
           = text_field_tag :name, '', title: t('.enter_name'), class: "form-control", style: "width: auto", :placeholder => "name"
 
-          = label_tag :email, t('.email')
+          -# = label_tag :email, t('.email')
+          %br
 
           = email_field_tag :email, '', title: t('.enter_email'), class: "form-control", style: "width: auto", :placeholder => "name@example.com"
 
-          = label_tag :telephone, t('.telephone')
+          -# = label_tag :telephone, t('.telephone')
+          %br
           = telephone_field_tag :telephone, '', title: t('.enter_telephone'), class: "form-control", style: "width: auto", placeholder: "+44"
 
-          = label_tag :message, t('.message')
+          -# = label_tag :message, t('.message')
+          %br
          
           = text_field_tag :message, '', title: t('.enter_message'), class: "form-control",style: "height: 100px; width: 200px", :placeholder => "Leave a comment here"
 
