@@ -73,11 +73,12 @@ a:hover {
 }
 
 .btn-rounded {
-  background-color: white;
+  background-color: #264653;
   position: relative;
-  padding: 0.9375rem 4.374rem 0.9379rem 1.2rem;
+  padding: 0.5375rem 2.374rem 0.5379rem 0.7rem;
   font-weight: 600;
   margin: 0;
+  color: white;
   // border: 0.1rem solid rgba(#f4f4fe, 0.6);
 }
 .btn-rounded:hover {
@@ -91,7 +92,7 @@ a:hover {
 
 .custom-span {
   position: absolute;
-  background-color: #e9d8a6;
+  background-color: #edf6f9;
   width: 2.5rem;
   height: 2.5rem;
   top: 50%;
@@ -105,10 +106,14 @@ a:hover {
 }
 
 i {
-  color: #343a40;
+  color: white;
   font-size: 1rem;
   line-height: 2.5rem;
   padding-top: 0.7rem;
+}
+
+.i-black {
+  color: black;
 }
 
 .i_c:hover {
